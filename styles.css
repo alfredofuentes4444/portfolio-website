@@ -12,14 +12,38 @@ html, body {
     width: 100%
 }
 
+#main-content-page {
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#introduction-section {
+    height: 30%;
+    width: 30%;
+    background-color: aqua;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#introduction-section-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 350%;
+}
+
+/* Later
+
 #navigation-bar {
     height: 100%;
     width: 20%;
     background-color: aqua;
 }
 
-#main-content-page {
-    height: 100%;
-    width: 80%;
-    background-color: blueviolet;
-}
+*/
